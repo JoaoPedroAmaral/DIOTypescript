@@ -1,0 +1,53 @@
+.modal:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal{
+    display: flex;
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    background-color:#339EFF;
+	  background-size: 100%;
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    border: 3px solid #000;
+    overflow: auto;
+}
+
+.modal button#fechar{
+  align-items: center;
+  text-align: center;
+  width: 40px;
+  font-size: 20px;
+	font-weight: bold;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: 2px solid #339EFF;
+  background-color: #339EFF;
+}
+
+.modal button#fechar:hover{
+  align-items: center;
+  text-align: center;
+  width: 40px;
+  font-size: 20px;
+	font-weight: bold;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: #A233FF;
+  border: 2px solid #A233FF;
+}
+
+.iframeDesafio{
+  width: 90%;
+  height: 98%;
+  border: none;
+}

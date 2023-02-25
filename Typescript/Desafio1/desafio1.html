@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="desafio1.css">
+  <title>Desafio1</title>
+</head>
+<body>
+  <h2>JHON'S LIFE</h2>
+  <div class="status">
+    <p id="idade" classe="dadosJhon"></p>
+    <p id="profissao" classe="dadosJhon"></p>
+    <p id="estadoCivil" classe="dadosJhon"></p>
+    <p id="peso" classe="dadosJhon"></p> 
+  </div>
+  <div class="mudarDadosJhon">
+    <h4>Idade</h4>
+    <input type="number" id="newDadoIdade">
+    <h4>Profissão</h4>
+    <input type="text" id="newDadoProfissao">
+    <h4>Estado Civil</h4>
+    <input type="text" id="newDadoEstadoCivil">
+    <h4>Peso</h4>
+    <input type="number" id="newDadoPeso">
+  </div>
+  <div>
+      <button onclick="enviarDado()" class="atualizarDadosJhon">Atualizar</button>
+  </div>
+  <h4 id="alerta"></h4>
+  <script src="desafio1.js"></script>
+</body>
+</html>

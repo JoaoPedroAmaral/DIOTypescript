@@ -1,0 +1,18 @@
+{
+  "name": "diots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "tsc": "tsc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc --watch",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.9.5"
+  }
+}

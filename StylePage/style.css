@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+  margin: 0%;
+  padding: 0%;
+  background:linear-gradient(180deg,#4040FF , #612EE8 );
+  
+}
+
+h2{
+  text-align: center;
+  font-family: 'Itim', cursive;
+  font-size: 50px;
+  text-shadow: 1px 1px #fff;
+}
+
+h3{
+  font-family: 'Itim', cursive;
+  text-align: center;
+}
+
+.espacamento{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  /* Adicionar o card*/
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  margin: 40px;
+  background-color: #339EFF;
+  border: 2px solid #000;
+}
+
+/* sombra de seleção*/
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+/* Adiciona espaçamento no card */
+.container {
+  padding: 2px 16px;
+}
+
+.box{
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
